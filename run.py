@@ -11,7 +11,6 @@ def run_booking_script():
         bot.set_currency("EUR")
         bot.search_place_to_go("New York")
         bot.select_dates("2024-05-20", "2024-05-23")
-        bot.define_passengers_ages()
 
 
 if __name__ == '__main__':
